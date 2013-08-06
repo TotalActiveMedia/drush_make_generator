@@ -90,13 +90,13 @@ function formVersion($v){
   $v = ($v) ? $v : $version;  
   $output = '';
   
-  if ($v == 6){$checked6 = 'checked="checked"'; $checked7 = ''; }
-  if ($v == 7){$checked6 = ''; $checked7 = 'checked="checked"'; }
+  if ($v == 7){$checked7 = 'checked="checked"'; $checked8 = ''; }
+  if ($v == 8){$checked7 = ''; $checked8 = 'checked="checked"'; }
   
   $output .= '<fieldset id="fs-version">
     <legend><p>Drupal Version <span class="small">Since different modules and themes are available for each major version<br /> of Drupal, the form will be <strong>reset</strong> if you change this setting.</span></p></legend>
-    <label for="o-version6"><input id="o-version6" type="radio" name="makefile[version]" value="6" '.$checked6.' /> <span class="title">Drupal 6</span></label>
-    <label for="o-version7"><input id="o-version7" type="radio" name="makefile[version]" value="7" '.$checked7.'/> <span class="title">Drupal 7</span></label>
+    <label for="o-version7"><input id="o-version7" type="radio" name="makefile[version]" value="7" '.$checked7.' /> <span class="title">Drupal 7</span></label>
+    <label for="o-version8"><input id="o-version8" type="radio" name="makefile[version]" value="8" '.$checked8.'/> <span class="title">Drupal 8</span></label>
   </fieldset>';
   
   return $output;
