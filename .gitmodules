@@ -1,3 +1,6 @@
 [submodule "v7"]
 	path = v7
 	url = http://git.drupal.org/project/drupal.git
+[submodule "v8"]
+	path = v8
+	url = http://git.drupal.org/project/drupal.git
