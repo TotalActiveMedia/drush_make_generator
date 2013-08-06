@@ -1,4 +1,4 @@
-<?
+<?php
 
 // include this library
 include('_lib.php');
