@@ -59,7 +59,7 @@ function fetchThemes() {
 function formMakefile($v){
   $output = '';
   
-  $output .= formCores($v);
+  //$output .= formCores($v);
   $output .= '<fieldset id="fs-contrib">
     <legend><p>Modules</p></legend>';
   $output .= formModules($v);
